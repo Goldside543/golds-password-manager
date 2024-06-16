@@ -3,7 +3,7 @@
 #include <string>
 #include <cstdlib> // For system("pause")
 
-// Function to encrypt a string (you can use a better encryption algorithm)
+// Function to encrypt a string
 std::string encrypt(const std::string& input) {
     std::string encrypted;
     for (char c : input) {
